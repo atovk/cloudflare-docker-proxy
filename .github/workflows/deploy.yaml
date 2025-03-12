@@ -3,7 +3,7 @@ name: Deploy to Cloudflare Workers
 on:
   push:
     branches:
-      - master
+      - atovk-master
     paths-ignore:
       - '**.md'
   repository_dispatch:
